@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rosie's Portfolio</title>
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+	<script src="https://kit.fontawesome.com/1334478c9c.js" crossorigin="anonymous"></script>
+
+	
+<!-- micron js -->
+<link href="https://unpkg.com/webkul-micron@1.1.6/dist/css/micron.min.css" type="text/css" rel="stylesheet">
+<script src="https://unpkg.com/webkul-micron@1.1.6/dist/script/micron.min.js" type="text/javascript"></script>
+	
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/abril-fatface:n4:default;josefin-sans:n1,n4:default.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<!-- nav starts -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light"> 
+  <!-- burger menu button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  <!-- button ends -->
+  
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a> </li>
+      <li class="nav-item"> <a class="nav-link" href="bio.html">Bio</a> </li>
+      <!-- dropdown -->
+      <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+		  <!-- dropdown links -->
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+			<a class="dropdown-item" href="graphics.html">Graphics</a>
+			<a class="dropdown-item" href="photography.html">Photography</a>
+		</div>
+      </li>
+      <!-- dropdown & dropdown links end -->
+      <li class="nav-item"> <a class="nav-link" href="experience.html">Experience</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a> </li>
+    </ul>
+  </div>
+</nav>
+	<!-- nav ends -->
+	<!-- header quote /// ADD FADE IN ON HOVER -->
+<header class="tracking-in-expand">
+  <h1>design is thinking made visual</h1>
+</header>
+	<!-- header quote ends -->
+	<!-- content -->
+<!-- container for content starts -->
+<div class="box2"> 
+<section class="contact">
+	<h2>My Contact Details</h2>
+	<hr>
+	<p class="details"><span class="dets">Telephone:</span>01 8108100</p>
+	<p class="details"><span class="dets">Email:</span>rosie@designemail.com</p>
+	<p class="details"><span class="dets">Address:</span>123 Studio Name, Dublin</p>
+<img src="images/mapmin.png" id="map" alt="map">
+</section>
+	<div class="form">
+		<h2>Contact Me Below!</h2>
+		You can also contact me using the form below! Just leave your details and enquiry and I'll get back to you.
+		<!-- form starts -->
+<form action="mailto:me@mydomain.com" method="post" autocomplete="on">
+		<fieldset><legend>Contact Details</legend>
+	
+			<div class="forminput"><label for="yourname">Your Name </label><input name="yourname" type="text" autofocus="autofocus" required="required" id="yourname" placeholder="First And Last Name"></div><br>
+		  <label for="email">Your Email Address </label><input name="email" type="email" required="required" id="email" placeholder="email@email.com">
+	</fieldset>
+	<fieldset><legend>Enquiry Type</legend>
+	  <p>
+	    <label data-micron="swing">
+	       <input type="radio" name="enquirytype" value="hire" id="enquirytype_0">
+			Hire Me
+	     </label>
+	    <br>
+	    <label data-micron="swing">
+	      <input type="radio" name="enquirytype" value="pricing" id="enquirytype_1">
+			Pricing
+	      </label>
+	    <br>
+	    <label data-micron="swing">
+	   <input type="radio" name="enquirytype" value="usemyimages" id="enquirytype_2">
+			   Use My Images
+	      </label>
+	    <br>
+	    <label data-micron="swing">
+	    <input type="radio" name="enquirytype" value="work" id="enquirytype_3">
+			 Work With Me 
+	      </label>
+	    <br>
+	    <label data-micron="swing">
+	     <input type="radio" name="enquirytype" value="" id="enquirytype_4">
+			 Other <span class="small">Leave details below!</span>
+	      </label>
+	    <br>
+	    </p>
+    </fieldset>
+	<fieldset><legend>Your Message</legend>
+	<label for="message">
+		<textarea name="message" id="message" placeholder="Pop your message here!" rows="4" cols="50"></textarea>
+		</label>
+	</fieldset>
+	<input name="resetbtn" type="reset" id="resetbtn" data-micron="swing"><input name="submitbtn" type="submit" id="submitbtn" data-micron="swing">
+		</form>
+<!-- form ends -->
+    </div>
+</div>
+	<!-- content and container end -->
+	<!-- footer starts -->
+<footer>Copyright 2021 &#169; <a href="sitemap.html">sitemap</a>
+	<div class="footer2">
+		<a href="a"><i class="fab fa-facebook-f fa-2x"></i></a>
+		<a href="a"><i class="fab fa-twitter fa-2x"></i></a>
+		<a href="a"><i class="fab fa-youtube fa-2x"></i></a>
+	</div>
+	</footer> <!-- footer ends -->
+<script src="js/jquery-3.4.1.min.js"></script> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>
