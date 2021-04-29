@@ -216,10 +216,11 @@ aside {
   display: inline-block;
 }
 .dropdown-item {
-  background-color: #70BADF;
-  font-family: 'Josefin Sans', sans-serif;
-  font-style: normal;
-  font-weight: 100;
+    background-color: #70BADF;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    color: #FFFFFF;
 }
 .dropdown-item:hover {
   color: #70BADF;
